@@ -27,7 +27,10 @@
 #define STRINGIZE2(s) #s
 #define STRINGIZE(s) STRINGIZE2(s)
 
-#if __AVX512__ || __MIC__
+#if __MIC__
+#undef SSE_type
+#define SSE_type			"MIC"
+#elif __AVX512__
 #undef SSE_type
 #define SSE_type			"AVX512"
 #elif __AVX2__

@@ -1,9 +1,12 @@
 /*
  * Minimalistic pseudo-instrinsics for width-agnostic x86 SIMD code.
  *
- * This software is Copyright (c) 2015 magnum, and it is hereby released to the
- * general public under the following terms:  Redistribution and use in source
- * and binary forms, with or without modification, are permitted.
+ * This software is Copyright (c) 2015 magnum,
+ * Copyright (c) 2015 JimF,
+ * Copyright (c) 2015 Lei Zhang,
+ * and it is hereby released to the general public under the following terms:
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted.
  *
  * Synopsis:
  *
